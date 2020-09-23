@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const Discord = Client.login();
 const bot = new Discord.Client();
 const ProxyScrape = require('proxyscrape');
 const proxy = new ProxyScrape();
