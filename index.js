@@ -43,7 +43,7 @@ bot.on('message', async message => {
 })
 
 
-bot.login(config.token);
+client.login(config.token);
 
 function shuffle(a) {
     var j, x, i;
