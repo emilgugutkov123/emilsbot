@@ -4,6 +4,8 @@ const ProxyScrape = require('proxyscrape');
 const proxy = new ProxyScrape();
 const config = require('./Config.json');
 
+client.login(process.env.BOT_TOKEN);//BOT_TOKEN is the Client Secret
+
 bot.on('ready', () => console.log('Bot is online'))
 
 bot.on('message', async message => {
